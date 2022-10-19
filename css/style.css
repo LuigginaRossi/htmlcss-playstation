@@ -1,3 +1,76 @@
+/************
+GENERAL
+*************/
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 14px;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+h2{
+    padding-bottom: calc(1.325rem + .9vw);
+}
+
+h6{
+    padding-bottom: .5rem;
+}
+
+/************
+UTILITIES
+*************/
+img{
+    width: 100%;
+    display: block;
+}
+
+
+
+/************
+SECTIONS
+*************/
+/* header */
+/* nav */
+#sony-container {
+    width: 20vw;
+    margin-left: auto;
+}
+
+#playstation-logo-size {
+    width: calc(1.375rem + 1.5vw);
+}
+
+.nav-position-sticky{
+    position: sticky;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+
+/* returnal */
+.returnal-bg {
+    background-image: url("../img/returnal-bg.webp");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -57px;
+}
+
+.returnal-logo-img {
+    width: 60%;
+    padding-top: 35vh;
+}
+
+/* main*/
+/* t-takes-two */
+.bg-takes-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
