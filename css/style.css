@@ -24,7 +24,6 @@ h6{
 img{
     width: 100%;
     display: block;
-    padding-bottom: .5rem;
 }
 
 /************
@@ -38,11 +37,11 @@ SECTIONS
 /* nav */
 .sony-bar{
     background-color: black;
-    height: 40px;
+    height: 30px;
 }
 
 .sony-logo-container{
-    width: 5%;
+    width: 8vw;
     margin-left: auto;
 }
 
@@ -50,11 +49,12 @@ SECTIONS
     width: calc(1.375rem + 1.5vw);
 }
 
-.nav-position-sticky{
+.position-sticky{
     position: sticky;
-    top: 40px;
+    top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 /* returnal */
@@ -64,7 +64,6 @@ SECTIONS
     background-position-y: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -57px;
 }
 
 .returnal-logo-img {
@@ -80,6 +79,12 @@ SECTIONS
     background-repeat: no-repeat;
     background-position-x: center;
 }
+
+/* store */
+.store img{
+    padding-bottom: .5rem;
+}
+
 
 /* playstation-plus */
 .bg-beige{
