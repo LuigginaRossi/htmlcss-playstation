@@ -24,6 +24,7 @@ h6{
 img{
     width: 100%;
     display: block;
+    padding-bottom: .5rem;
 }
 
 /************
@@ -78,4 +79,9 @@ SECTIONS
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
+}
+
+/* playstation-plus */
+.bg-beige{
+    background-color: #bebcbb;
 }
