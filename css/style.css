@@ -85,8 +85,17 @@ SECTIONS
     padding-bottom: .5rem;
 }
 
-
 /* playstation-plus */
 .bg-beige{
     background-color: #bebcbb;
+}
+
+/* playstation-now */
+.bg-dark-blue{
+    background-color: #161c3b;
+}
+
+/* social */
+.social img{
+    padding-bottom: 1.5rem;
 }
