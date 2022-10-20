@@ -21,23 +21,27 @@ h6{
     padding-bottom: .5rem;
 }
 
-/************
-UTILITIES
-*************/
 img{
     width: 100%;
     display: block;
 }
 
-
+/************
+UTILITIES
+*************/
 
 /************
 SECTIONS
 *************/
 /* header */
 /* nav */
-#sony-container {
-    width: 20vw;
+.sony-bar{
+    background-color: black;
+    height: 40px;
+}
+
+.sony-logo-container{
+    width: 5%;
     margin-left: auto;
 }
 
@@ -73,4 +77,5 @@ SECTIONS
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
 }
