@@ -72,7 +72,7 @@ SECTIONS
 }
 
 /* main*/
-/* t-takes-two */
+/* it-takes-two */
 .bg-takes-two{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
