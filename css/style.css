@@ -29,7 +29,37 @@ img{
 /************
 UTILITIES
 *************/
+.btn-danger {
+    --bs-btn-bg: #cd3d0f;
+    --bs-btn-border-color: #cd3d0f; 
+    --bs-btn-hover-bg: #a8340e;
+    --bs-btn-hover-border-color: #a8340e;
+    --bs-btn-focus-shadow-rgb: 205, 61, 15;  
+    --bs-btn-active-bg: #fa5822;
+    --bs-btn-active-border-color: #fa5822;
+    --bs-btn-disabled-bg: #cd3d0f;
+    --bs-btn-disabled-border-color: #cd3d0f;
+}
 
+.btn-primary {
+    
+    --bs-btn-bg: #2d64e6;
+    --bs-btn-border-color: #0d6efd;
+  
+    --bs-btn-hover-bg: #2554c0;
+    --bs-btn-hover-border-color: #2554c0;
+    --bs-btn-focus-shadow-rgb: 45, 100, 230;
+  
+    --bs-btn-active-bg: #3582f5;
+    --bs-btn-active-border-color: #3582f5;
+
+    --bs-btn-disabled-bg: #2d64e6;
+    --bs-btn-disabled-border-color: #2d64e6;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
 /************
 SECTIONS
 *************/
@@ -61,7 +91,7 @@ SECTIONS
 .returnal-bg {
     background-image: url("../img/returnal-bg.webp");
     background-position-x: center;
-    background-position-y: bottom;
+    background-position-y: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -85,6 +115,14 @@ SECTIONS
     padding-bottom: .5rem;
 }
 
+.card:hover{
+    --bs-card-border-width: 3px;
+    --bs-card-border-color: rgb(225, 225, 255);
+    border: var(--bs-card-border-width) solid #0474cf;
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+    transform: scale( 1.1);
+}
 /* playstation-plus */
 .bg-beige{
     background-color: #bebcbb;

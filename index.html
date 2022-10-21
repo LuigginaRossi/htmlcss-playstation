@@ -23,14 +23,14 @@
 <body>
 
     <header class="position-sticky">
-        <!-- nav1 bg-black-->
+        <!-- sony-bar bg-black-->
         <div class="sony-bar px-3 d-flex align-items-center">
             <div class="sony-logo-container py-2 d-flex align-items-center">
                 <img src="img/sony_logo.svg" alt="sony logo">
             </div>
         </div>
 
-        <!-- nav2 bg-white-->
+        <!-- nav bg-white-->
         <!-- logo -->
         <nav class="bg-light py-1 px-3 d-flex align-items-center">
             <div class="playstation-container flex-shrink-0">
@@ -41,10 +41,23 @@
             <div class="menu-container flex-grow-1 d-none d-lg-flex">
                 <ul class="list-inline m-0">
                     <li class="list-inline-item">
-                        <button class="btn btn-outline-secondary border-0">
+
+                        <!-- bonus -->
+                        <div class="dropdown">
+                            <button class="btn btn-outline-secondary border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Giochi
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><button class="dropdown-item" type="button">Action</button></li>
+                              <li><button class="dropdown-item" type="button">Another action</button></li>
+                              <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                          </div>
+   
+                        <!-- <button class="btn btn-outline-secondary border-0">
                             Giochi
                             <i class="fa-solid fa-chevron-down"></i>
-                        </button>
+                        </button> -->
                     </li>
 
                     <li class="list-inline-item">
