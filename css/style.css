@@ -102,6 +102,14 @@ SECTIONS
 }
 
 /* main*/
+
+/* playstation5 */
+.playstation5 img{
+    width: 70%;
+}
+
+
+
 /* it-takes-two */
 .bg-takes-two{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
