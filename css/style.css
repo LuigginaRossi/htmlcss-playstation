@@ -29,11 +29,19 @@ img{
 /************
 UTILITIES
 *************/
+.btn-outline-secondary{
+    --bs-btn-hover-bg: #6c757d00;
+    --bs-btn-active-bg: #6c757d00;
+    --bs-btn-hover-color: #2d64e6;
+    --bs-btn-active-color: #102f77;
+    --bs-btn-color: #000000;
+}
+
 .btn-danger {
     --bs-btn-bg: #cd3d0f;
     --bs-btn-border-color: #cd3d0f; 
-    --bs-btn-hover-bg: #a8340e;
-    --bs-btn-hover-border-color: #a8340e;
+    --bs-btn-hover-bg: #af4421;
+    --bs-btn-hover-border-color: #af4421;
     --bs-btn-focus-shadow-rgb: 205, 61, 15;  
     --bs-btn-active-bg: #fa5822;
     --bs-btn-active-border-color: #fa5822;
@@ -57,20 +65,30 @@ UTILITIES
     --bs-btn-disabled-border-color: #2d64e6;
 }
 
-button:hover{
-    transform: scale(1.1);
+button:hover {
+    transform: scale(1.08);
 }
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255 , 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /************
 SECTIONS
 *************/
 /* header */
 /* nav */
-.sony-bar{
+.sony-bar {
     background-color: black;
     height: 30px;
 }
 
-.sony-logo-container{
+.sony-logo-container {
     width: 8vw;
     margin-left: auto;
 }
@@ -79,12 +97,12 @@ SECTIONS
     width: calc(1.375rem + 1.5vw);
 }
 
-.position-sticky{
+.position-sticky {
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 5;
 }
 
 /* returnal */
@@ -98,20 +116,54 @@ SECTIONS
 
 .returnal-logo-img {
     width: 60%;
-    padding-top: 35vh;
+    padding-top: 200px;
 }
 
-/* main*/
+/* cards*/
+.card:hover .overlay{
+    display: none;
+}
+
+.card:hover{
+    box-shadow: 0px 15px 10px -5px ;
+}
+
+.card {
+    transition: transform 6s linear .3s;
+}
+
+.card:hover {
+    --bs-card-border-width: 3px;
+    --bs-card-border-color: rgb(225, 225, 255);
+    border: var(--bs-card-border-width) solid #0474cf;
+    padding: 0.3rem 0.3rem;
+    border-radius: 0.5rem;
+    transform: scale( 1.05);
+    transform: translate(0px, -18px);
+    margin-bottom: -8px;
+}
 
 /* playstation5 */
-.playstation5 img{
-    width: 70%;
+.playstation5 img {
+    width: 65%;
+    margin: auto;
+    padding-bottom: 1rem;
 }
 
 
 
+.playstation5 .col-4:hover{
+    transform: scale(1.05);
+    border-bottom: 3px solid #2d64e6;
+    margin-bottom: -8px;
+}
+
+.playstation5 .col-4:hover .overlay{
+    display: none;
+}
+
 /* it-takes-two */
-.bg-takes-two{
+.bg-takes-two {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -119,44 +171,44 @@ SECTIONS
 }
 
 /* store */
-.store img{
-    padding-bottom: .5rem;
+.store img {
+    margin-bottom: .9rem;
+    border-radius: 25px;
 }
 
-.card:hover{
-    --bs-card-border-width: 3px;
-    --bs-card-border-color: rgb(225, 225, 255);
-    border: var(--bs-card-border-width) solid #0474cf;
-    padding: 0.3rem 0.3rem;
-    border-radius: 0.5rem;
-    transform: scale( 1.1);
+.store [class^="col"] > div:hover{
+    transform: scale(1.02);
+}
+
+.store [class^="col"] div > img:hover{
+    box-shadow: 0px 5px 15px -5px #4e4e4e;
 }
 /* playstation-plus */
-.bg-beige{
+.bg-beige {
     background-color: #bebcbb;
 }
 
 /* playstation-now */
-.bg-dark-blue{
+.bg-dark-blue {
     background-color: #161c3b;
 }
 
 /* social */
-.social img{
+.social img {
     padding-bottom: 1.5rem;
 }
 
 /* footer */
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer li{
+footer li {
     list-style: none;
 }
 
-.sie-logo{
+.sie-logo {
     width: 10vh;
 }

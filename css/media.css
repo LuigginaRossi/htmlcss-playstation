@@ -1,6 +1,8 @@
 /* sm */
 @media screen and (min-width: 540px) {
-
+    .playstation5 .col-4:hover .card{
+      margin: 0 1rem;
+    }
   }
 
 /* md */
