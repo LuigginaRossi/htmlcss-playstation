@@ -35,6 +35,7 @@ UTILITIES
     --bs-btn-hover-color: #2d64e6;
     --bs-btn-active-color: #102f77;
     --bs-btn-color: #000000;
+    font-weight: bold;
 }
 
 .btn-danger {
@@ -47,6 +48,7 @@ UTILITIES
     --bs-btn-active-border-color: #fa5822;
     --bs-btn-disabled-bg: #cd3d0f;
     --bs-btn-disabled-border-color: #cd3d0f;
+    font-weight: bold;
 }
 
 .btn-primary {
@@ -63,11 +65,15 @@ UTILITIES
 
     --bs-btn-disabled-bg: #2d64e6;
     --bs-btn-disabled-border-color: #2d64e6;
+    font-weight: bold;
 }
 
 button:hover {
     transform: scale(1.08);
+
 }
+
+
 
 .overlay {
     width: 100%;
@@ -129,7 +135,7 @@ SECTIONS
 }
 
 .card {
-    transition: transform 6s linear .3s;
+    transition: transform 3s linear .3s;
 }
 
 .card:hover {
