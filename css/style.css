@@ -91,11 +91,11 @@ SECTIONS
 /* nav */
 .sony-bar {
     background-color: black;
-    height: 30px;
+    height: 20px;
 }
 
 .sony-logo-container {
-    width: 8vw;
+    width: 6vw;
     margin-left: auto;
 }
 
